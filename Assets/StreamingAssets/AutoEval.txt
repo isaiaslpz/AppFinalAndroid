@@ -1,0 +1,33 @@
+﻿{"questions":[
+{
+"Text":"firstName, votre repas vous semble-t-il structuré ?",
+"Choices":["Non","Oui"],
+"Answers":[
+"Effectivement, votre repas manque de structure; un repas structuré se compose d' 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert",
+ "C'est vrai:  votre repas manque de structure;  1 repas structuré   comprend 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert",
+ "Mais si, la structure de votre repas est satisfaisante car vous avez sélectionné 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert",
+"Pas du tout: votre repas n'est pas structuré; un repas structuré se compose d' 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert",
+"Pas vraiment:  votre repas manque de structure;  1 repas structuré   comprend 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert",
+"Tout à fait, la structure de votre repas est satisfaisante car vous avez sélectionné 1 entrée, 1 portion de viande/poisson/ œufs, 1 accompagnement, 1 produit laitier et 1 dessert"]
+},
+{
+"Text":"firstName, votre repas vous semble-t-il équilibré?",
+"Choices":["Non","Oui"],
+"Answers":[
+"Effectivement, votre repas n'est pas équilibré; un repas équilibré  comprend 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert",
+ "C'est vrai: votre repas manque d'équilibre; un repas équilibré   comprend 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert",
+ "Mais si, votre repas est équilibré car vous avez choisi 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert",
+"Pas du tout, votre repas n'est pas équilibré: un repas équilibré  comprend 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert",
+"Pas vraiment:  votre repas manque d'équilibre;  1 repas équilibré   comprend 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert",
+"Tout à fait,  votre repas est équilibré car vous avez choisi 1 portion de viande/poisson/ œufs, 1 légume, 1 féculent, 1 produit laitier et 1 dessert"]
+},
+{"Text":"firstName, votre repas vous semble-t-il en quantité suffisante ?",
+"Choices":["Trop importante","Adaptée","Insuffisante"],
+"Answers":[
+"Non, les quantités sont très insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Non, les quantités sont insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Non, les quantités sont adaptées à la réduction de votre nouvel estomac et  suffisent  BRAVO!","Oui, effectivement, les quantités sont trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez à terme de reprendre du  poids et peut être votre poids initial ...", "Oui, effectivement, les quantités sont beaucoup trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez de reprendre du poids et probablement à terme votre poids initial ...", 
+
+"Non, les quantités sont très insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Non, les quantités sont insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Oui, effectivement les quantités sont adaptées à la réduction de votre nouvel estomac BRAVO!", "Non, les quantités sont trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez à terme de reprendre du  poids et peut être votre poids initial ...", "Non, les quantités sont beaucoup trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez de reprendre du poids et probablement à terme votre poids initial ...", 
+
+"Oui effectivement, les quantités sont très insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Oui effectivement, les quantités sont insuffisantes; vous risquez d’être fatigué(e) et d'avoir à terme des carences en vitamines, oligo-éléments, ...", "Non, les quantités sont adaptées à la réduction de votre nouvel estomac BRAVO!", "Non, les quantités sont trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez à terme de reprendre du  poids et peut être votre poids initial ...", "Non, les quantités sont beaucoup trop importantes suite à la réduction chirurgicale de votre estomac; vous risquez de reprendre du poids et probablement à terme votre poids initial ..."]
+}
+]}

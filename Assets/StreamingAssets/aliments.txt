@@ -1,0 +1,49 @@
+﻿{"aliments":[
+{"name":"carrotte","types":["Légume Vert"],"portions":5,"slices":5,"mealType1":"Entrée","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"Légume vert","alimentType2":""},
+
+{"name":"Oeuf","types":["proteine"],"portions":5,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Poisson Carré Pané","types":["Proteine"],"portions":10,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"VPO","alimentType2":""},
+
+{"name":"Saucisse","types":["Proteine"],"portions":10,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Merguez","types":["Proteine"],"portions":5,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"VPO","alimentType2":""},
+
+{"name":"Thon","types":["Proteine"],"portions":5,"slices":1,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Boîte(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Jambon Blanc","types":["Proteine"],"portions":5,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Saucisson","types":["Proteine"],"portions":25,"slices":25,"mealType1":"Entrée","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Steak Haché","types":["Proteine"],"portions":10,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"VPO","alimentType2":""},
+{"name":"Burger","types":["Proteine","Féculent"],"portions":10,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Morceau(x)","alimentType1":"VPO","alimentType2":"Féculent"},
+{"name":"Panini","types":["Proteine"],"portions":10,"slices":2,"mealType1":"Viande","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"VPO","alimentType2":"Féculent"},
+
+
+{"name":"Pâtes","types":["Féculent"],"portions":12,"slices":3,"mealType1":"Accompagnement","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"Féculent","alimentType2":""},
+
+
+{"name":"Riz","types":["Féculent"],"portions":12,"slices":3,"mealType1":"Accompagnement","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"Féculent","alimentType2":""},
+
+{"name":"Frites","types":["Féculent"],"portions":12,"slices":3,"mealType1":"Accompagnement","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"Féculent","alimentType2":""},
+{"name":"Chips","types":["Féculent"],"portions":4,"slices":1,"mealType1":"Accompagnement","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"Féculent","alimentType2":""},
+
+
+{"name":"Ratatouille","types":["Légume Vert"],"portions":24,"slices":3,"mealType1":"Accompagnement","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"Légume vert","alimentType2":""},
+{"name":"Betteraves Rouges","types":["Légume Vert"],"portions":8,"slices":3,"mealType1":"Entrée","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"Légume vert","alimentType2":""},
+{"name":"Radis","types":["Légume Vert"],"portions":1,"slices":1,"mealType1":"Entrée","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"Légume vert","alimentType2":""},
+
+
+
+{"name":"eau","types":["boisson"],"portions":10,"slices":2,"mealType1":"","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Portion(s)","alimentType1":"","alimentType2":""},
+
+
+{"name":"Glace","types":["Dessert"],"portions":7,"slices":1,"mealType1":"Dessert","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"Dessert","alimentType2":""},
+{"name":"Compote","types":["Dessert"],"portions":7,"slices":1,"mealType1":"Dessert","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Portion(s)","alimentType1":"Dessert","alimentType2":""},
+
+{"name":"Fromage Blanc","types":["Produit Laitier"],"portions":4,"slices":1,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"Gruyère","types":["Produit Laitier"],"portions":10,"slices":5,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"Raclette","types":["Produit Laitier"],"portions":10,"slices":5,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"Camembert","types":["Produit Laitier"],"portions":10,"slices":5,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"St Agur","types":["Produit Laitier"],"portions":10,"slices":5,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"Roquefort","types":["Produit Laitier"],"portions":10,"slices":5,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":true,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+{"name":"Babybel","types":["Produit Laitier"],"portions":2,"slices":2,"mealType1":"Produit laitier","mealType2":"","mealTypeThreshold":0,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"Produit laitier","alimentType2":""},
+
+
+{"name":"pain","types":["Féculent","typeTest"],"portions":4,"mealType1":"","mealType2":"","mealTypeThreshold":5,"slices":5,"greasy":false,"sugary":false,"multiMesh":false,"mesure":"Tranche(s)","alimentType1":"Féculent","alimentType2":""}
+]}
