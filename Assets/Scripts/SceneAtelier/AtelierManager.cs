@@ -20,6 +20,7 @@ public class AtelierManager : MonoBehaviour {
 	public GameObject BackGround;
 
 	public float ySpacing = 2;
+	public float YPosition = 0;
 
 
 	public scriptPlateau Plateau;
@@ -53,7 +54,7 @@ public class AtelierManager : MonoBehaviour {
     public GameObject plateBlocAliment;
     public int nbColumn = 8;
     public float spacing = 3.0f;
-    public float YOffSet = 1.0f;
+    public float XOffset = 1.0f;
     public float YNameSpacing = 0.75f;
     public float AlimentScale = 1.0f;
     public GameObject AlimentNamePrefab;
@@ -253,7 +254,7 @@ public class AtelierManager : MonoBehaviour {
 					}
 
 
-					pos.x = y + YOffSet;
+					pos.x = y + XOffset;
 					pos.z = 0;
 
 
@@ -325,7 +326,7 @@ public class AtelierManager : MonoBehaviour {
 					aliment.transform.localScale *= AlimentScale;
 					// Cambiar la rotacion de alimentos desplazables---------------------------------------
 					if (aliment.name == "Riz" || aliment.name == "Jambon Blanc" || aliment.name == "Betteraves Rouges" || aliment.name == "Camembert" || aliment.name == "Pâtes" || aliment.name == "Gruyère" || aliment.name == "Raclette" || aliment.name == "St Agur" || aliment.name == "Roquefort" || aliment.name == "Babybel"
-						|| aliment.name == "Ratatouille")
+						|| aliment.name == "Ratatouille" || aliment.name == "Compote")
 					{
 						aliment.transform.rotation = Quaternion.Euler(-90, 0, 0);
 
@@ -342,7 +343,7 @@ public class AtelierManager : MonoBehaviour {
 			}
 		}
 
-
+		AlimentContainer.transform.position = new Vector3(0, YPosition, 0);
 	}
 
 	// ################

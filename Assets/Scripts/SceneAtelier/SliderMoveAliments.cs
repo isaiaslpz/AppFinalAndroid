@@ -40,12 +40,12 @@ public class SliderMoveAliments : MonoBehaviour {
 		}
 		else if(decim % 1 == 0)
 		{
-			maxVal = decim * 3;
+			maxVal = decim * 3.2f;
 			SliderDis.maxValue = maxVal;
 		}
 		else
 		{
-			maxVal = (decim + 0.5f) * 3;
+			maxVal = (decim + 1f) * 3;
 			SliderDis.maxValue = maxVal;
 		}
 		

@@ -117,14 +117,19 @@ public class MealManager : MonoBehaviour {
 
 		IEnumerator appearEndMealButton()
 	{
-		yield return new WaitForSeconds(20);
+		yield return new WaitForSeconds(45);
 		EndMealActivator.SetActive(true);
 	}
+	IEnumerator appearAutoEvalButton()
+	{
+		yield return new WaitForSeconds(8);
+		AutoEvalActivator.SetActive(true);
+	}
 
-    // ################
-    // ## Recuperation de l'instance
-    // ################
-    public static MealManager Instance()
+	// ################
+	// ## Recuperation de l'instance
+	// ################
+	public static MealManager Instance()
     {
         return _instance;
     }
@@ -222,17 +227,29 @@ public class MealManager : MonoBehaviour {
 
     public void Analyse()
     {
-        EndMealActivator.SetActive(false);
-        Man.SetActive(false);
-        Woman.SetActive(false);
-        TimerUI.SetActive(false);
-        //mise en place du texte
-        AnalyseActivator.SetActive(false);
-        AutoEvalActivator.SetActive(true);
-		
-        
-        // affichage liste aliments mangés
-        Infos.text = "Vous avez mangé : \n" ;
+		if (MedicalAppManager.Instance().userOperation == Operation.by_pass)
+		{
+			EndMealActivator.SetActive(false);
+			Man.SetActive(false);
+			Woman.SetActive(false);
+			TimerUI.SetActive(false);
+			//mise en place du texte
+			AnalyseActivator.SetActive(false);
+			StartCoroutine(appearAutoEvalButton());
+		}
+		else
+		{
+			EndMealActivator.SetActive(false);
+			Man.SetActive(false);
+			Woman.SetActive(false);
+			TimerUI.SetActive(false);
+			//mise en place du texte
+			AnalyseActivator.SetActive(false);
+			AutoEvalActivator.SetActive(true);
+		}
+
+		// affichage liste aliments mangés
+		Infos.text = "Vous avez mangé : \n" ;
         Dictionary<string, int> types = new Dictionary<string, int>();
         float totalPortions = 0;
 
@@ -289,8 +306,9 @@ public class MealManager : MonoBehaviour {
 		//    DumpingToggle.SetActive(true);
 		//}
 		if (MedicalAppManager.Instance().userOperation==Operation.by_pass){
-          //  Infos.text += "\nRisque de dumping syndrome si trop gras, trop sucré, trop salé, trop chaud, trop froid \nTolérance variable selon les personnes; à tester d’abord en petite quantité et observer les effets \n";
-            SetDumpingToggleActive(true);
+			//  Infos.text += "\nRisque de dumping syndrome si trop gras, trop sucré, trop salé, trop chaud, trop froid \nTolérance variable selon les personnes; à tester d’abord en petite quantité et observer les effets \n";
+			//SetDumpingToggleActive(true);
+			SetDumpingSyndrom(true);
 			//dumpingConseille.SetActive(true);
 		}
 

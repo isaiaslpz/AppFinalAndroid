@@ -28,12 +28,12 @@ public class SliderModif : MonoBehaviour {
         GetComponent<Slider>().value = maxValue;
         if (MedicalAppManager.Instance().IsSelectedDrink())
         {
-			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name;
+			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name + ", modifier la quantité: "; 
 			//+ "\n" + GetComponent<Slider>().value + " gorgée(s)";
         }
         else
         {
-			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name;
+			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name + ", modifier la quantité: "; 
 			//+ "\n" + GetComponent<Slider>().value + " " + MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.mesure;
         }
     }
@@ -43,12 +43,12 @@ public class SliderModif : MonoBehaviour {
         // mise a jour du text en fonction du type d'aliement
         if (MedicalAppManager.Instance().IsSelectedDrink())
         {
-			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name;
+			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name + ", modifier la quantité: ";
 			//+ "\n" + GetComponent<Slider>().value + " gorgée(s)";
         }
         else
         {
-			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name;
+			ModificationText.text = MedicalAppManager.Instance().selectedAliment.GetComponent<PlateBlocAliment>().al.name + ", modifier la quantité: ";
 			//+ "\n" + GetComponent<Slider>().value + " tranche(s)";
         }
         UpdateSlider();
