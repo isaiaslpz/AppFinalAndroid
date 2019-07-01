@@ -3199,7 +3199,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f1cec25404aec9d4a844687b2950f3fe, type: 3}
   Consigne: {fileID: 1443187158}
   Consignes:
-  - "Choisissez un sc\xE9nario"
+  - Cliquez sur le bouton SELF pour choisir votre repas
   - "Cliquez sur un aliment pour l'ajouter \xE0 votre plateau"
   - "Cliquez sur un aliment pour modifier la quantit\xE9 ou le suprimer"
   plateBlocAliment: {fileID: 1722165358988438, guid: 79255d2089b531140bd635d901c43fe5,

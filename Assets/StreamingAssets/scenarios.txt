@@ -1,3 +1,3 @@
 ﻿{"scenarios":[
-{"name":"Self","skyboxRotation":75,"aliments":["pain","Poisson Carré Pané","Betteraves Rouges","Radis","Merguez","Saucisse","Thon","Jambon Blanc","Saucisson","Steak Haché","Burger","Panini","Riz","Frites","Chips","Ratatouille", "eau","Oeuf","Fromage Blanc","Gruyère","Raclette","Camembert","St Agur","Roquefort","Babybel","Glace","Compote","Poire","Pomme","Raisin"]}
+{"name":"Self","skyboxRotation":75,"aliments":["pain","Poisson Carré Pané","Betteraves Rouges","Carottes râpées","Radis","Salade verte","Merguez","Saucisse","Thon","Jambon Blanc","Saucisson","Steak Haché","Burger","Panini","Pâtes","Riz","Frites","Chips","Ratatouille", "eau","Oeuf","Fromage Blanc","Gruyère","Raclette","Camembert","St Agur","Roquefort","Babybel","Glace","Compote","Gâteau chocolat","Poire","Pomme","Raisin"]}
 ]}

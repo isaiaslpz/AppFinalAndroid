@@ -326,7 +326,7 @@ public class AtelierManager : MonoBehaviour {
 					aliment.transform.localScale *= AlimentScale;
 					// Cambiar la rotacion de alimentos desplazables---------------------------------------
 					if (aliment.name == "Riz" || aliment.name == "Jambon Blanc" || aliment.name == "Betteraves Rouges" || aliment.name == "Camembert" || aliment.name == "Pâtes" || aliment.name == "Gruyère" || aliment.name == "Raclette" || aliment.name == "St Agur" || aliment.name == "Roquefort" || aliment.name == "Babybel"
-						|| aliment.name == "Ratatouille" || aliment.name == "Compote")
+						|| aliment.name == "Ratatouille"  || aliment.name == "Thon" || aliment.name == "Carottes râpées" || aliment.name == "Salade verte" || aliment.name == "Gâteau chocolat") 
 					{
 						aliment.transform.rotation = Quaternion.Euler(-90, 0, 0);
 

@@ -32,13 +32,13 @@ public class SliderAjout : MonoBehaviour
 
 		//ROTAR ALIMENTOS NECESARIOS AL ESCOGER LA PORCION--------------------------------------------------------
 		if (Aliment1.name == "Riz"|| Aliment1.name == "Jambon Blanc" || Aliment1.name == "Betteraves Rouges"||Aliment1.name== "Camembert"||Aliment1.name== "Pâtes"||Aliment1.name == "Gruyère" || Aliment1.name == "Raclette" || Aliment1.name == "St Agur" || Aliment1.name == "Roquefort" || Aliment1.name == "Babybel"
-		|| Aliment1.name == "Ratatouille" || Aliment1.name == "Compote")
+		|| Aliment1.name == "Ratatouille"  || Aliment1.name == "Thon" || Aliment1.name == "Carottes râpées" || Aliment1.name == "Salade verte"|| Aliment1.name == "Gâteau chocolat") 
 		{
 			Aliment1.transform.rotation = Quaternion.Euler(0, 90, -90);
 		}
 
 		if (Aliment2.name == "Riz" || Aliment2.name == "Jambon Blanc" || Aliment2.name == "Betteraves Rouges"||Aliment2.name== "Camembert"||Aliment2.name== "Pâtes" || Aliment2.name == "Gruyère" || Aliment2.name == "Raclette" || Aliment2.name == "St Agur" || Aliment2.name == "Roquefort" || Aliment2.name == "Babybel"
-		|| Aliment2.name == "Ratatouille" || Aliment2.name == "Compote")
+		|| Aliment2.name == "Ratatouille"  || Aliment2.name == "Thon" || Aliment2.name == "Carottes râpées" || Aliment2.name == "Salade verte" || Aliment2.name == "Gâteau chocolat") 
 		{
 			Aliment2.transform.rotation = Quaternion.Euler(0, 90, -90);
 		}
